@@ -1,3 +1,5 @@
+Deeds = new Mongo.Collection('deeds');
+
 if (Meteor.isClient) {
   // counter starts at 0
   Session.setDefault('counter', 0);
